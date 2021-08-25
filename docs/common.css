@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto Slab', 'Roboto', sans-serif;
+}
+
+#fullpage > .section > div {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:10rem;
+}
+
+.main .text-bg {
+  font-family: 'Roboto', sans-serif;
+  color:transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 6px white;
+  opacity: 3%;
+  letter-spacing: -10px;
+}
+
+.main .text-bg > div:first-child {
+  font-size:280px;
+  line-height: 280px;
+}
+
+.main .text-bg > div:last-child {
+  font-size:192px;
+  line-height: 192px;
+}
+
