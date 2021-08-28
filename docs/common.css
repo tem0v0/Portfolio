@@ -159,5 +159,26 @@ body {
 		transform: rotate(380deg);
 	}
 }
+
+.main .main-img .main-img__boat {
+  position: absolute;
+  top:45%;
+  left:50%;
+  z-index: 9;
+  animation:boat 3s infinite linear;
+}
+
+.main .main-img .main-img__boat > img {
+  width: 200px;
+}
+
+@keyframes boat {
+  50% {
+    top:47%;
+  }
+}
 /* 메인 - 바다 이미지 끝 */
+
+/* 메인 - 메뉴 시작 */
+/* 메인 - 메뉴 끝 */
 /* 메인 끝 */
