@@ -8,6 +8,8 @@ body {
   justify-content:center;
 }
 
+/* 메인 시작 */
+/* 메인 - 텍스트 배경 시작 */
 .main .text-bg {
   margin-top:60px;
   font-family: 'Roboto', sans-serif;
@@ -28,7 +30,9 @@ body {
   font-size:192px;
   line-height: 75%;
 }
+/* 메인 - 텍스트 배경 끝 */
 
+/* 메인 - 타이틀 시작 */
 .main .title-1 {
   position: absolute;
   top:358px;
@@ -67,4 +71,22 @@ body {
   position:absolute;
   top:572.21px;
   left:225.43px;
+  z-index: 2;
 }
+/* 메인 - 타이틀 끝 */
+
+/* 메인 - 바다 이미지 시작 */
+.main .main-img > .main-img__bg {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* 메인 - 바다 이미지 끝 */
+/* 메인 끝 */
