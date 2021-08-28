@@ -6,25 +6,65 @@ body {
   display:flex;
   align-items:center;
   justify-content:center;
-  font-size:10rem;
 }
 
 .main .text-bg {
+  margin-top:60px;
   font-family: 'Roboto', sans-serif;
   color:transparent;
   font-weight: 700;
-  -webkit-text-stroke: 6px white;
+  -webkit-text-stroke: 6px white; /* 텍스트 외곽선 */
   opacity: 3%;
   letter-spacing: -10px;
 }
 
-.main .text-bg > div:first-child {
+.main .text-bg > p:first-child {
   font-size:280px;
-  line-height: 280px;
+  line-height: 75%;
+  margin-bottom: 70px;
 }
 
-.main .text-bg > div:last-child {
+.main .text-bg > p:last-child {
   font-size:192px;
-  line-height: 192px;
+  line-height: 75%;
 }
 
+.main .title-1 {
+  position: absolute;
+  top:358px;
+  left:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .title-1 > p:first-child {
+  font-size: 17px;
+  color:white;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+
+.main .title-1 > .title_line {
+  width: 489.33px;
+  height: 7.96px;
+  background-color: #C4C4C4;
+}
+
+.main .title-1 > p:nth-child(3) {
+  font-size: 96px;
+  font-weight: 700;
+  color:#E4E4E4;
+  align-self: flex-end;
+  line-height: 80%;
+  margin-top: 20px;
+}
+
+.main .title-2 > p {
+  font-size: 55px;
+  font-weight: 700;
+  color:#E4E4E4;
+  line-height: 0;
+  position:absolute;
+  top:572.21px;
+  left:225.43px;
+}
