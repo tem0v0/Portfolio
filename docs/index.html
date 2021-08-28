@@ -34,15 +34,15 @@
     <header class="menu-bar">
       <a href="#" class="logo"><img src="resource/02_main_logo.png" alt=""></a>
       <ul class="menu">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li data-menuanchor="home"><a href="#home">HOME</a></li>
+        <li data-menuanchor="aboutMe"><a href="#aboutMe">ABOUT ME</a></li>
+        <li data-menuanchor="portfolio"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
       </ul>
     </header>
 
     <div id="fullpage">
-      <section class="section main">
+      <section class="section main" data-anchor="home">
         <div>
           <div class="text-bg">
             <p>Hello! &nbsp; Hello!</p>
@@ -74,9 +74,9 @@
           </div>
         </div>
       </section>
-      <section class="section aboutMe">섹션 2</section>
-      <section class="section portfolio">섹션 3</section>
-      <section class="section contact">섹션 4</section>
+      <section class="section aboutMe" data-anchor="aboutMe">섹션 2</section>
+      <section class="section portfolio" data-anchor="portfolio">섹션 3</section>
+      <section class="section contact" data-anchor="contact">섹션 4</section>
     </div>
   </div>
 </body>
