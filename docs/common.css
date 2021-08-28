@@ -179,6 +179,32 @@ body {
 }
 /* 메인 - 바다 이미지 끝 */
 
-/* 메인 - 메뉴 시작 */
-/* 메인 - 메뉴 끝 */
+/* 메인 - 메뉴바 시작 */
+.main .menu-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position:fixed;
+  top:50vh;
+  left:auto;
+  right: 50px;
+  transform: translateY(-50%);
+  z-index: 100;
+  color:#777777;
+  font-size: 24px;
+  font-weight: 700;
+  
+}
+
+.main .menu-bar .menu {
+  text-align: right;
+}
+
+.main .menu-bar a:not(.logo) {
+  line-height: 100%;
+  display: block;
+  margin-top: 23px;
+}
+
+/* 메인 - 메뉴바 끝 */
 /* 메인 끝 */
