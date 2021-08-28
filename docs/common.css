@@ -21,14 +21,15 @@ body {
 }
 
 .main .text-bg > p:first-child {
-  font-size:280px;
+  font-size:275px;
   line-height: 75%;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .main .text-bg > p:last-child {
-  font-size:192px;
+  font-size:187px;
   line-height: 75%;
+  letter-spacing: -8px;
 }
 /* 메인 - 텍스트 배경 끝 */
 
