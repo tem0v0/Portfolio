@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Slab', 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', 'Noto Sans KR', sans-serif;
 }
 
 /* 헤더 - 메뉴바 시작 */
@@ -75,10 +75,11 @@ body {
 }
 
 .main .title-1 > p:first-child {
-  font-size: 17px;
+  font-size: 18px;
   color:white;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   align-self: flex-end;
+  font-weight: 100;
 }
 
 .main .title-1 > .title_line {
@@ -213,7 +214,7 @@ body {
 /* 메인 - 바다 이미지 끝 */
 /* 메인 끝 */
 
-/* 타이틀 공통 css */
+/* 타이틀 공통 css 시작 */
 .title-css {
   position: absolute;
   top:358px;
@@ -224,9 +225,10 @@ body {
 }
 
 .title-css > p:first-child {
-  font-size: 17px;
+  font-size: 18px;
   color:white;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  font-weight: 100;
 }
 
 .title-css > .title_line {
@@ -242,9 +244,28 @@ body {
   line-height: 70%;
   margin-top: 20px;
 }
+/* 타이틀 공통 css 끝 */
 
 /* 어바웃미 시작 */
-/* 어바웃미 - 타이틀 시작 */
+/* 어바웃미 - 한 줄 소개 시작 */
+.aboutMe .main-text {
+  position: absolute;
+  top:210px;
+  left:563px;
+  font-size: 36px;
+  color:#E4E4E4;
+  letter-spacing: 0.7px;
+  font-weight: 700;
+}
 
+.aboutMe .main-text > span:nth-of-type(2) {
+  font-weight: 300;
+}
 
+.aboutMe .main-text > span:nth-of-type(4) {
+  font-size:48px;
+  color:#7079E2;
+  line-height: 110%;
+}
+/* 어바웃미 - 한 줄 소개 끝 */
 /* 어바웃미 끝 */
