@@ -268,4 +268,113 @@ body {
   line-height: 110%;
 }
 /* 어바웃미 - 한 줄 소개 끝 */
+
+/* 어바웃미 - 항목별 소개 시작 */
+.aboutMe .sub-text {
+  position: absolute;
+  top:405px;
+  left:499px;
+  min-width: 748px;
+  min-height: 367px;
+  display: flex;
+}
+
+.aboutMe .sub-text > .items {
+  font-size:26px;
+  font-weight: 500;
+  color:#E4E4E4;
+  line-height: 80%;
+}
+
+.aboutMe .sub-text > .items > p {
+  margin-bottom: 50px;
+}
+
+.aboutMe .sub-text > .items > p:nth-child(3) {
+  margin-bottom: 130px;
+}
+
+.aboutMe .sub-text > .line {
+  width: 3px;
+  height: 372px;
+  background-color: #C4C4C4;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: -5px;
+}
+
+.aboutMe .sub-text > .content {
+  font-size:24px;
+  font-weight: 300;
+  color:#E4E4E4;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.aboutMe .sub-text > .content > p {
+  line-height: 80%;
+  margin-bottom: 50px;
+}
+
+.aboutMe .sub-text > .content > .education-con {
+  margin-bottom: 50px;
+}
+
+.aboutMe .sub-text > .content > .education-con > p {
+  line-height: 100%;
+}
+
+.aboutMe .sub-text > .content > .education-con > p:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.aboutMe .sub-text > .content > .skill-con {
+  display: flex;
+}
+
+.aboutMe .sub-text > .content > .skill-con > div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color:black;
+  width: 65px;
+  height: 65px;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.aboutMe .sub-text > .content > .skill-con > div:first-child,
+.aboutMe .sub-text > .content > .skill-con > div:nth-child(5) {
+  background-color: #0F43A8;
+}
+
+.aboutMe .sub-text > .content > .skill-con > div:nth-child(2),
+.aboutMe .sub-text > .content > .skill-con > div:last-child {
+  background-color: #C77CE1;
+}
+
+.aboutMe .sub-text > .content > .skill-con > div:nth-child(3) {
+  background-color: #0075FF;
+}
+
+.aboutMe .sub-text > .content > .skill-con > div:nth-child(4) {
+  background-color: #63E3FF;
+}
+/* 어바웃미 - 항목별 소개 끝 */
+
+/* 어바웃미 - 사진 시작 */
+.aboutMe .photo {
+  position: absolute;
+  top:297px;
+  left:1327px;
+}
+
+.aboutMe .photo > img {
+  width: 300px;
+}
+/* 어바웃미 - 사진 끝 */
 /* 어바웃미 끝 */
