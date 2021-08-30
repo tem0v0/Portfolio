@@ -470,6 +470,8 @@ body {
 }
 
 .portfolio .tab-menu > .body .content > .text-2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
   width: 397px;
   height: 140px;
   margin-bottom: 50px;
@@ -488,11 +490,18 @@ body {
   justify-content: center;
   align-items: center;
   font-size:18px;
-  font-weight: 700;
-  color:#202020;
-  background-color: #C4C4C4;
+  font-weight: 400;
+  color:white; /* #202020 */
+  border:2px solid #C4C4C4;
+  background-color: transparent; /* #C4C4C4 */
   border-radius: 10px;
+  transition: background-color 0.3s;
 } 
+
+.portfolio .tab-menu > .body .content > .btn > a:hover {
+  background-color: #7079E2;
+  border:0px solid #C4C4C4;
+}
 
 .portfolio .tab-menu > .body .mockup {
   width: 575px;
