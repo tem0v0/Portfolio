@@ -506,8 +506,50 @@ body {
 .portfolio .tab-menu > .body .mockup {
   width: 575px;
   height: 478px;
-  border:2px solid violet;
   margin-left:42px;
+  position: relative;
+}
+
+.portfolio .tab-menu > .body .mockup > img {
+  width: 574.1px;
+}
+
+.portfolio .tab-menu > .body .mockup > .site-img {
+  width: 504px;
+  height: 284px;
+  background-color:white;
+  position: absolute;
+  top:33px;
+  left:34px;
+  overflow: hidden;
+}
+
+.portfolio .tab-menu > .body .mockup > .site-img > p {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 2;
+  background-color: #C4C4C4;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size:13px;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .tab-menu > .body .mockup > .site-img > img {
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: top 10s;
+}
+
+.portfolio .tab-menu > .body .mockup > .site-img:hover > img {
+  top:-1113px;
 }
 
 /* 포트폴리오 끝 */
