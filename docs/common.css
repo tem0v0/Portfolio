@@ -378,3 +378,57 @@ body {
 }
 /* 어바웃미 - 사진 끝 */
 /* 어바웃미 끝 */
+
+/* 포트폴리오 시작 */
+.portfolio .tab-menu {
+  position: absolute;
+  top:107px;
+  left:516px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio .tab-menu > .tab-menu__title {
+  font-size: 48px;
+  font-weight: 400px;
+  color:#E4E4E4;
+  line-height: 80%;
+  margin-bottom: 40px;
+}
+
+.portfolio .tab-menu > .head > ul {
+  display: flex;
+  border:2px solid blue;
+  color:#999999;
+  margin-bottom: 60px;
+}
+
+.portfolio .tab-menu > .body > ul {
+  width: 1100px;
+  height: 565px;
+  background-color: #292929;
+  border: 10px solid red;;
+}
+
+.portfolio .tab-menu > .body > ul > .pf-1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio .tab-menu > .body .content {
+  width: 397px;
+  height: 416px;
+  border: 2px solid gold;
+}
+
+.portfolio .tab-menu > .body .mockup {
+  width: 575px;
+  height: 478px;
+  border:2px solid violet;
+  margin-left:35px;
+}
+
+/* 포트폴리오 끝 */
