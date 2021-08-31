@@ -734,6 +734,107 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-
 /* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
+
+.sky .ico-star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 1000;
+  filter: blur(10px);
+}
+
+.sky .ico-star > div {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 5000;
+  background-color: #fff;
+}
+
+.sky.night .ico-star {
+  background-color: #fff;
+}
+
+.sky .ico-star-1 {
+  top: 30%;
+  left: 10%;
+}
+
+.sky .ico-star-2 {
+  top: 10%;
+  left: 20%;
+}
+
+.sky .ico-star-3 {
+  top: 25%;
+  left: 15%;
+}
+
+.sky .ico-star-4 {
+  top: 40%;
+  right: 15%;
+}
+
+.sky .ico-star-5 {
+  top: 43%;
+  right: 30%;
+}
+
+.sky .ico-star-6 {
+  top: 73%;
+  right: 27%;
+}
+
+.sky .ico-star-7 {
+  top: 65%;
+  left: 22%;
+}
+
+@keyframes clittering {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.ico-star-1 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-2 {
+  animation: clittering 3s infinite;
+}
+
+.ico-star-3 {
+  animation: clittering 5s infinite;
+}
+
+.ico-star-4 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-5 {
+  animation: clittering 4s infinite;
+}
+
+.ico-star-6 {
+  animation: clittering 1.8s infinite;
+}
+
+.ico-star-7 {
+  animation: clittering 3.5s infinite;
+}
