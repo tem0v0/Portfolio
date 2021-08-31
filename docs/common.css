@@ -686,16 +686,16 @@ body {
   width: 5000px;
   height: 5000px;
   border-radius: 47%;
-  background: radial-gradient(#6e79ed 60%, #1445a8 80%);
+  background: radial-gradient(#6e79ed 65%, #1445a8 75%);
   z-index: 1;
-  animation: wave2 10s infinite linear;
+  animation: wave 10s infinite linear;
 }
 
 .contact .img>.img-sea>.img-wave-2 {
   border-radius: 45%;
   top: 625px;
   opacity: 60%;
-  animation: wave2 10.5s infinite linear;
+  animation: wave2 10.6s infinite linear;
   transform: rotate(50deg);
 }
 
