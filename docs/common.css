@@ -65,6 +65,7 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
+
 /* 메인 - 텍스트 배경 끝 */
 
 /* 메인 - 타이틀 시작 */
@@ -109,6 +110,7 @@ body {
   left: 225.43px;
   z-index: 10;
 }
+
 /* 메인 - 타이틀 끝 */
 
 /* 메인 - 바다 이미지 시작 */
@@ -213,6 +215,7 @@ body {
     top: 47%;
   }
 }
+
 /* 메인 - 바다 이미지 끝 */
 /* 메인 끝 */
 
@@ -644,7 +647,7 @@ body {
   text-align: center;
 }
 
-.contact .text > .text-email {
+.contact .text>.text-email {
   margin-bottom: 70px;
 }
 
@@ -658,36 +661,37 @@ body {
 
 .contact .text>div>p:last-child {
   font-family: 'Roboto', sans-serif;
-  font-size:34px;
+  font-size: 34px;
   font-weight: 400px;
-  color:white;
+  color: white;
   line-height: 80%;
   letter-spacing: 2px;
 }
+
 /* 컨택트 - 텍스트 끝 */
 
 /* 컨택트 - 바다 이미지 시작 */
-.contact .img > .img-boat {
+.contact .img>.img-boat {
   position: absolute;
   z-index: 3;
-  top:428px;
-  left:1221.1px;
+  top: 428px;
+  left: 1221.1px;
   animation: boat 3s infinite linear;
 }
 
-.contact .img > .img-sea > div {
+.contact .img>.img-sea>div {
   position: absolute;
-  top:630px;
-  left:-1500px;
+  top: 630px;
+  left: -1500px;
   width: 5000px;
   height: 5000px;
   border-radius: 47%;
-  background:radial-gradient(#6e79ed 60%, #1445a8 80%);
+  background: radial-gradient(#6e79ed 60%, #1445a8 80%);
   z-index: 1;
   animation: wave2 10s infinite linear;
 }
 
-.contact .img > .img-sea > .img-wave-2 {
+.contact .img>.img-sea>.img-wave-2 {
   border-radius: 45%;
   top: 625px;
   opacity: 60%;
@@ -695,11 +699,41 @@ body {
   transform: rotate(50deg);
 }
 
-.contact .img > .img-sea > .img-wave-3 {
+.contact .img>.img-sea>.img-wave-3 {
   border-radius: 46%;
   top: 620px;
+  opacity: 20%;
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
+
 /* 컨택트 - 바다 이미지 끝 */
+
+/* 컨택트 - 카피라이트 시작 */
+.contact .copy {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 35px;
+  transform: translateX(-50%);
+  z-index: 3;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  opacity: 85%;
+  line-height: 90%;
+}
+
+.contact .copy > div {
+  margin-bottom: 14px;
+}
+
+.contact .copy span:first-child,
+.contact .copy span:nth-child(3) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+/* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
