@@ -148,7 +148,7 @@ body {
   width: 850px;
   height: 900px;
   background: radial-gradient(#3e79f6 40%, #688ddb 70%);
-  animation: wave 5s infinite linear;
+  animation: wave 8s infinite linear;
   z-index: 5;
 }
 
@@ -164,7 +164,7 @@ body {
   top: 53%;
   left: -150px;
   opacity: 60%;
-  animation: wave2 5.5s infinite linear;
+  animation: wave2 8.5s infinite linear;
   transform: rotate(50deg);
 }
 
@@ -173,7 +173,7 @@ body {
   top: 51%;
   left: -150px;
   opacity: 20%;
-  animation: wave3 5.2s infinite linear;
+  animation: wave3 8.2s infinite linear;
   transform: rotate(20deg);
 }
 
