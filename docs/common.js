@@ -6,9 +6,7 @@ new fullpage('#fullpage', {
 function tabMenu() {
   function hideShow(no) {
     $('.tab-menu .pf').removeClass('active');
-    $('.tab-menu .body .pf').hide();
     $('.tab-menu .pf-'+no).addClass('active');
-    $('.tab-menu .pf-'+no).fadeIn(1800);
   }
 
   $('.tab-menu > .head .pf-1').click(function() {
