@@ -614,8 +614,6 @@ body {
   /* 텍스트 외곽선 */
   opacity: 3%;
   letter-spacing: -5px;
-  position: relative;
-  z-index: 5;
 }
 
 .contact .text-bg>p:first-child {
