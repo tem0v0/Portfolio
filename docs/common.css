@@ -454,6 +454,7 @@ body {
 }
 
 .portfolio .tab-menu>.body .content>.text-1>div {
+  height: 25px;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
@@ -472,6 +473,7 @@ body {
   font-weight: 100;
   font-family: 'Noto Sans KR', sans-serif;
   margin-left: 20px;
+  line-height: 70%;
 }
 
 .portfolio .tab-menu>.body .content>.text-2 {
