@@ -32,7 +32,6 @@ body {
 .menu-bar .menu>li.active>a {
   color: white;
 }
-
 /* 헤더 - 메뉴바 끝 */
 
 /* 메인 시작 */
@@ -65,7 +64,6 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
-
 /* 메인 - 텍스트 배경 끝 */
 
 /* 메인 - 타이틀 시작 */
@@ -110,7 +108,6 @@ body {
   left: 225.43px;
   z-index: 10;
 }
-
 /* 메인 - 타이틀 끝 */
 
 /* 메인 - 바다 이미지 시작 */
@@ -215,7 +212,6 @@ body {
     top: 47%;
   }
 }
-
 /* 메인 - 바다 이미지 끝 */
 /* 메인 끝 */
 
@@ -249,7 +245,6 @@ body {
   line-height: 70%;
   margin-top: 20px;
 }
-
 /* 타이틀 공통 css 끝 */
 
 /* 어바웃미 시작 */
@@ -273,7 +268,6 @@ body {
   color: #7079E2;
   line-height: 110%;
 }
-
 /* 어바웃미 - 한 줄 소개 끝 */
 
 /* 어바웃미 - 항목별 소개 시작 */
@@ -335,7 +329,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 .aboutMe .sub-text>.content>.skill-con {
   display: flex;
 }
@@ -376,6 +369,7 @@ body {
 /* 어바웃미 - 사진 시작 */
 .aboutMe .photo {
   position: absolute;
+  z-index: 2;
   top: 297px;
   left: 1327px;
 }
@@ -389,6 +383,7 @@ body {
 /* 포트폴리오 시작 */
 .portfolio .tab-menu {
   position: absolute;
+  z-index: 2;
   top: 120px;
   left: 516px;
   display: flex;
@@ -502,10 +497,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: white;
-  /* #202020 */
   border: 2px solid #C4C4C4;
   background-color: transparent;
-  /* #C4C4C4 */
   border-radius: 10px;
   transition: background-color 0.3s;
 }
@@ -634,7 +627,6 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
-
 /* 컨택트 - 텍스트 배경 끝 */
 
 /* 컨택트 - 텍스트 시작 */
@@ -667,13 +659,12 @@ body {
   line-height: 80%;
   letter-spacing: 2px;
 }
-
 /* 컨택트 - 텍스트 끝 */
 
 /* 컨택트 - 바다 이미지 시작 */
 .contact .img>.img-boat {
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   top: 428px;
   left: 1221.1px;
   animation: boat 3s infinite linear;
@@ -687,7 +678,7 @@ body {
   height: 5000px;
   border-radius: 47%;
   background: radial-gradient(#6e79ed 65%, #1445a8 75%);
-  z-index: 1;
+  z-index: 2;
   animation: wave 10s infinite linear;
 }
 
@@ -706,7 +697,6 @@ body {
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
-
 /* 컨택트 - 바다 이미지 끝 */
 
 /* 컨택트 - 카피라이트 시작 */
@@ -736,3 +726,173 @@ body {
 }
 /* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
+
+/* 배경 별 시작 */
+.StarryNight > .stars {
+  position:absolute;
+  z-index: 1;
+}
+
+.StarryNight > .star-l {
+  width:12px;
+  height:12px;
+}
+
+.StarryNight > .star-l > .light {
+  filter:blur(6px);
+}
+
+.StarryNight > .star-m {
+  width:10px;
+  height:10px;
+}
+
+.StarryNight > .star-m > .light {
+  filter:blur(5px);
+}
+
+.StarryNight > .star-s {
+  width:5px;
+  height:5px;
+}
+
+.StarryNight > .star-s > .light  {
+  filter:blur(2.5px);
+}
+
+.StarryNight > .stars > .star {
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background-color:white;
+}
+
+.StarryNight > .stars > .light {
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:100;
+  background-color:white;
+  opacity:0.8;
+}
+
+@keyframes clittering {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.ico-star-1 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-2 {
+  animation: clittering 3s infinite;
+}
+
+.ico-star-3 {
+  animation: clittering 5s infinite;
+}
+
+.ico-star-4 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-5 {
+  animation: clittering 4s infinite;
+}
+
+.ico-star-6 {
+  animation: clittering 1.8s infinite;
+}
+
+.ico-star-7 {
+  animation: clittering 3.5s infinite;
+}
+
+.StarryNight > .star-1 {
+  top:121px;
+  left:153px;
+}
+
+.StarryNight > .star-2 {
+  top:251px;
+  left:417px;
+}
+
+.StarryNight > .star-4 {
+  top:674px;
+  left:420px;
+}
+
+.StarryNight > .star-6 {
+  top:105px;
+  left:1812px;
+}
+
+.StarryNight > .star-8 {
+  top:359px;
+  left:1370px;
+}
+
+.StarryNight > .star-10 {
+  top:780px;
+  left:1273px;
+}
+
+.StarryNight > .star-12 {
+  top:387px;
+  left:601px;
+}
+
+.StarryNight > .star-15 {
+  top:855px;
+  left:151px;
+}
+
+.StarryNight > .star-16 {
+  top:440px;
+  left:1595px;
+}
+
+.StarryNight > .star-17 {
+  top:632px;
+  left:1514px;
+}
+
+.StarryNight > .star-18 {
+  top:860px;
+  left:1030px;
+}
+
+.StarryNight > .star-19 {
+  top:123px;
+  left:1278px;
+}
+
+.StarryNight > .star-20 {
+  top:760px;
+  left:1731px;
+}
+
+.StarryNight > .star-25 {
+  top:95px;
+  left:829px;
+}
+
+.StarryNight > .star-26 {
+  top:775px;
+  left:601px;
+}
