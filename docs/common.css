@@ -615,7 +615,7 @@ body {
   opacity: 3%;
   letter-spacing: -5px;
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .contact .text-bg>p:first-child {
@@ -666,7 +666,7 @@ body {
 /* 컨택트 - 바다 이미지 시작 */
 .contact .img>.img-boat {
   position: absolute;
-  z-index: 4;
+  z-index: 6;
   top: 428px;
   left: 1221.1px;
   animation: boat 3s infinite linear;
