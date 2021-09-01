@@ -727,12 +727,13 @@ body {
 /* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
 
-/* 배경 별 시작 */
+/* 배경 별 반짝이는 효과 시작 */
 .StarryNight > .stars {
   position:absolute;
   z-index: 1;
 }
 
+/* 큰 별 */
 .StarryNight > .star-l {
   width:12px;
   height:12px;
@@ -742,6 +743,7 @@ body {
   filter:blur(6px);
 }
 
+/* 중간 별 */
 .StarryNight > .star-m {
   width:10px;
   height:10px;
@@ -751,6 +753,7 @@ body {
   filter:blur(5px);
 }
 
+/* 작은 별 */
 .StarryNight > .star-s {
   width:5px;
   height:5px;
@@ -760,6 +763,7 @@ body {
   filter:blur(2.5px);
 }
 
+/* 별 형태, 색상 */
 .StarryNight > .stars > .star {
   width:100%;
   height:100%;
@@ -779,6 +783,7 @@ body {
   opacity:0.8;
 }
 
+/* 별 반짝이는 애니메이션 */
 @keyframes clittering {
   0% {
     opacity: 0;
@@ -794,6 +799,7 @@ body {
   }
 }
 
+/* 별마다 애니메이션 적용 */
 .ico-star-1 {
   animation: clittering 2s infinite;
 }
@@ -822,6 +828,7 @@ body {
   animation: clittering 3.5s infinite;
 }
 
+/* 별 위치 */
 .StarryNight > .star-1 {
   top:121px;
   left:153px;
@@ -896,3 +903,4 @@ body {
   top:775px;
   left:601px;
 }
+/* 배경 별 반짝이는 효과 끝 */
