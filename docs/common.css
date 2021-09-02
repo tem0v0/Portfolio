@@ -36,6 +36,7 @@ body {
 .menu-bar .menu>li.active>a {
   color: white;
 }
+
 /* 헤더 - 메뉴바 끝 */
 
 
@@ -69,6 +70,7 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
+
 /* 메인 - 텍스트 배경 끝 */
 
 
@@ -114,6 +116,7 @@ body {
   left: 225.43px;
   z-index: 10;
 }
+
 /* 메인 - 타이틀 끝 */
 
 
@@ -227,6 +230,7 @@ body {
     top: 47%;
   }
 }
+
 /* 메인 - 바다 이미지 끝 */
 /* 메인 끝 */
 
@@ -261,6 +265,7 @@ body {
   line-height: 70%;
   margin-top: 20px;
 }
+
 /* 타이틀 공통 css 끝 */
 
 
@@ -285,6 +290,7 @@ body {
   color: #7079E2;
   line-height: 110%;
 }
+
 /* 어바웃미 - 한 줄 소개 끝 */
 
 /* 어바웃미 - 항목별 소개 시작 */
@@ -381,6 +387,7 @@ body {
 .aboutMe .sub-text>.content>.skill-con>div:nth-child(4) {
   background-color: #63E3FF;
 }
+
 /* 어바웃미 - 항목별 소개 끝 */
 
 /* 어바웃미 - 사진 시작 */
@@ -394,6 +401,7 @@ body {
 .aboutMe .photo>img {
   width: 300px;
 }
+
 /* 어바웃미 - 사진 끝 */
 /* 어바웃미 끝 */
 
@@ -608,13 +616,16 @@ body {
 /* 탭메뉴 작동 관련 */
 .portfolio .tab-menu>.body>ul>.pf {
   opacity: 0;
-  position:absolute; /* 평상 시에는 absolute, opacity 0 상태로 숨겨놓음 */
+  position: absolute;
+  /* 평상 시에는 absolute, opacity 0 상태로 숨겨놓음 */
 }
 
 .portfolio .tab-menu>.body>ul>.pf.active {
   opacity: 1;
-  position:static; /* 다른 엘리먼트들은 absolute 상태라 active된 엘리먼트에 영향을 주지 않으므로 해당 active 된 엘리먼트가 원래 자리로 나오게 됨 */
-  transition: opacity 3.5s; /* 나타날 때만 서서히, 사라질 때는 효과 없이 사라져야 하므로 active 때에만 transition을 줌 */
+  position: static;
+  /* 다른 엘리먼트들은 absolute 상태라 active된 엘리먼트에 영향을 주지 않으므로 해당 active 된 엘리먼트가 원래 자리로 나오게 됨 */
+  transition: opacity 3.5s;
+  /* 나타날 때만 서서히, 사라질 때는 효과 없이 사라져야 하므로 active 때에만 transition을 줌 */
 }
 
 .portfolio .tab-menu>.head>ul>.pf.active>a {
@@ -625,6 +636,7 @@ body {
   background-color: #7079E2;
   border-radius: 5px;
 }
+
 /* 포트폴리오 끝 */
 
 
@@ -658,6 +670,7 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
+
 /* 컨택트 - 텍스트 배경 끝 */
 
 /* 컨택트 - 텍스트 시작 */
@@ -690,6 +703,7 @@ body {
   line-height: 80%;
   letter-spacing: 2px;
 }
+
 /* 컨택트 - 텍스트 끝 */
 
 /* 컨택트 - 바다 이미지 시작 */
@@ -728,6 +742,7 @@ body {
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
+
 /* 컨택트 - 바다 이미지 끝 */
 
 /* 컨택트 - 카피라이트 시작 */
@@ -746,7 +761,7 @@ body {
   line-height: 90%;
 }
 
-.contact .copy > div {
+.contact .copy>div {
   margin-bottom: 14px;
 }
 
@@ -755,64 +770,65 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+
 /* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
 
 
 /* 배경 별 반짝이는 효과 시작 */
-.StarryNight > .stars {
-  position:absolute;
+.StarryNight>.stars {
+  position: absolute;
   z-index: 1;
 }
 
 /* 큰 별 */
-.StarryNight > .star-l {
-  width:12px;
-  height:12px;
+.StarryNight>.star-l {
+  width: 12px;
+  height: 12px;
 }
 
-.StarryNight > .star-l > .light {
-  filter:blur(6px);
+.StarryNight>.star-l>.light {
+  filter: blur(6px);
 }
 
 /* 중간 별 */
-.StarryNight > .star-m {
-  width:10px;
-  height:10px;
+.StarryNight>.star-m {
+  width: 10px;
+  height: 10px;
 }
 
-.StarryNight > .star-m > .light {
-  filter:blur(5px);
+.StarryNight>.star-m>.light {
+  filter: blur(5px);
 }
 
 /* 작은 별 */
-.StarryNight > .star-s {
-  width:5px;
-  height:5px;
+.StarryNight>.star-s {
+  width: 5px;
+  height: 5px;
 }
 
-.StarryNight > .star-s > .light  {
-  filter:blur(2.5px);
+.StarryNight>.star-s>.light {
+  filter: blur(2.5px);
 }
 
 /* 별 형태, 색상 */
-.StarryNight > .stars > .star {
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  background-color:#E0E0E0;
+.StarryNight>.stars>.star {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #E0E0E0;
 }
 
-.StarryNight > .stars > .light {
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:100;
-  background-color:#E0E0E0;
-  opacity:0.8;
+.StarryNight>.stars>.light {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #E0E0E0;
+  opacity: 0.8;
 }
 
 /* 별 반짝이는 애니메이션 */
@@ -821,10 +837,12 @@ body {
     opacity: 0;
     transform: scale(0.5);
   }
+
   50% {
     opacity: 1;
     transform: scale(0.9);
   }
+
   100% {
     opacity: 0;
     transform: scale(0.5);
@@ -861,103 +879,104 @@ body {
 }
 
 /* 별 위치 */
-.StarryNight > .star-1 {
-  top:121px;
-  left:153px;
+.StarryNight>.star-1 {
+  top: 121px;
+  left: 153px;
 }
 
-.StarryNight > .star-2 {
-  top:251px;
-  left:417px;
+.StarryNight>.star-2 {
+  top: 251px;
+  left: 417px;
 }
 
-.StarryNight > .star-4 {
-  top:674px;
-  left:420px;
+.StarryNight>.star-4 {
+  top: 674px;
+  left: 420px;
 }
 
-.contact .StarryNight > .star-4 {
-  top:590px;
-  left:109px;
+.contact .StarryNight>.star-4 {
+  top: 590px;
+  left: 109px;
 }
 
-.StarryNight > .star-6 {
-  top:105px;
-  left:1812px;
+.StarryNight>.star-6 {
+  top: 105px;
+  left: 1812px;
 }
 
-.StarryNight > .star-8 {
-  top:359px;
-  left:1370px;
+.StarryNight>.star-8 {
+  top: 359px;
+  left: 1370px;
 }
 
-.StarryNight > .star-10 {
-  top:780px;
-  left:1273px;
+.StarryNight>.star-10 {
+  top: 780px;
+  left: 1273px;
 }
 
-.StarryNight > .star-12 {
-  top:387px;
-  left:601px;
+.StarryNight>.star-12 {
+  top: 387px;
+  left: 601px;
 }
 
-.StarryNight > .star-15 {
-  top:855px;
-  left:151px;
+.StarryNight>.star-15 {
+  top: 855px;
+  left: 151px;
 }
 
-.StarryNight > .star-16 {
-  top:440px;
-  left:1595px;
+.StarryNight>.star-16 {
+  top: 440px;
+  left: 1595px;
 }
 
-.StarryNight > .star-17 {
-  top:632px;
-  left:1514px;
+.StarryNight>.star-17 {
+  top: 632px;
+  left: 1514px;
 }
 
-.StarryNight > .star-18 {
-  top:860px;
-  left:1030px;
+.StarryNight>.star-18 {
+  top: 860px;
+  left: 1030px;
 }
 
-.StarryNight > .star-19 {
-  top:123px;
-  left:1278px;
+.StarryNight>.star-19 {
+  top: 123px;
+  left: 1278px;
 }
 
-.StarryNight > .star-20 {
-  top:760px;
-  left:1731px;
+.StarryNight>.star-20 {
+  top: 760px;
+  left: 1731px;
 }
 
-.StarryNight > .star-25 {
-  top:95px;
-  left:829px;
+.StarryNight>.star-25 {
+  top: 95px;
+  left: 829px;
 }
 
-.StarryNight > .star-26 {
-  top:775px;
-  left:601px;
+.StarryNight>.star-26 {
+  top: 775px;
+  left: 601px;
 }
+
 /* 배경 별 반짝이는 효과 끝 */
 
 
 /* --- 라이트 버전 커스텀 시작 --- */
 /* 화면 배경색 */
-.site-wrap.mode .section  {
+.site-wrap.mode .section {
   background-color: white;
 }
 
 /* 헤더 - 메뉴바 */
 /* 로고 */
-.site-wrap.mode .menu-bar .logo > svg .st0 {
-  fill:#7079E2;
+.site-wrap.mode .menu-bar .logo>svg .st0 {
+  fill: #7079E2;
 }
 
 /* 메뉴 아이템 */
 .site-wrap.mode .menu-bar {
-  color:#999999;
+  color: #999999;
 }
 
 /* 페이지가 활성화 됐을 때 메뉴 아이템 색상 변경 */
@@ -982,7 +1001,7 @@ body {
 }
 
 .site-wrap.mode .main .title-1>.title_line {
-  background-color: rgb(141,148,232);
+  background-color: rgb(141, 148, 232);
 }
 
 /* 메인 - 바다 이미지 */
@@ -991,7 +1010,7 @@ body {
 }
 
 .site-wrap.mode .main .main-img .main-img__sky-1 {
-  background: linear-gradient(rgb(117,164,255), rgb(171,245,255));
+  background: linear-gradient(rgb(117, 164, 255), rgb(171, 245, 255));
 }
 
 .site-wrap.mode .main .main-img .main-img__sky-2 {
@@ -999,7 +1018,7 @@ body {
 }
 
 .site-wrap.mode .main .main-img>.main-img__sea>div {
-  background: radial-gradient( rgb(0,117,255) 10%, rgba(143, 232, 252, 0.87) 90%);
+  background: radial-gradient(rgb(0, 117, 255) 10%, rgba(143, 232, 252, 0.87) 90%);
 }
 
 .site-wrap.mode .main .main-img .main-img__boat>.dark {
@@ -1009,11 +1028,12 @@ body {
 .site-wrap.mode .main .main-img .main-img__boat>.light {
   display: block;
 }
+
 /* 메인 끝 */
 
 
 /* 타이틀 공통 css 시작 */
-.site-wrap.mode .title-css > p {
+.site-wrap.mode .title-css>p {
   color: #7079E2;
 }
 
@@ -1022,8 +1042,9 @@ body {
 }
 
 .site-wrap.mode .title-css>.title_line {
-  background-color: rgb(141,148,232);
+  background-color: rgb(141, 148, 232);
 }
+
 /* 타이틀 공통 css 끝 */
 
 
@@ -1038,8 +1059,8 @@ body {
 }
 
 /* 어바웃미 - 항목별 소개 &*/
-.site-wrap.mode .aboutMe .sub-text > div {
-  color:#404040;
+.site-wrap.mode .aboutMe .sub-text>div {
+  color: #404040;
 }
 
 .site-wrap.mode .aboutMe .sub-text>.content {
@@ -1047,7 +1068,7 @@ body {
 }
 
 .site-wrap.mode .aboutMe .sub-text>.content>.skill-con>div {
-  color:white;
+  color: white;
   font-weight: 500;
 }
 
@@ -1068,7 +1089,7 @@ body {
 }
 
 .site-wrap.mode .portfolio .tab-menu>.body>ul>.pf {
-  color:#404040;
+  color: #404040;
 }
 
 .site-wrap.mode .portfolio .tab-menu>.body .content>.text-1>div>p:first-child {
@@ -1090,10 +1111,9 @@ body {
 }
 
 .site-wrap.mode .portfolio .tab-menu>.body .content>.btn>a:hover {
-  color:white;
+  color: white;
   border: 0px solid #808080;
 }
-
 
 /* 포트폴리오 탭메뉴 내용, 목업 */
 .site-wrap.mode .portfolio .tab-menu>.body .mockup>.dark {
@@ -1105,5 +1125,22 @@ body {
 }
 
 
-.site-wrap.mode
+/* 컨택트 시작 */
+/* 컨택트 - 텍스트 배경 시작 */
+.site-wrap.mode .contact .text-bg {
+  -webkit-text-stroke: 6px #E4E4E4;
+  opacity: 30%;
+}
+
+/* 컨택트 - 텍스트 */
+.site-wrap.mode .contact .text>div>p:last-child {
+  color: #404040;
+}
+
+/* 컨택트 - 바다 이미지 */
+.site-wrap.mode .contact .img>.img-sea>div {
+  background: radial-gradient(#4089fa 64%, #a0efff 72%);
+}
+
+.site-wrap.mode .site-wrap.mode .site-wrap.mode
 /* --- 라이트 버전 커스텀 끝 --- */
