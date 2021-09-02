@@ -997,8 +997,47 @@ body {
 .site-wrap.mode .main .main-img .main-img__boat>.light {
   display: block;
 }
-
-
 /* 메인 끝 */
 
-/* 라이트 버전 커스텀 끝 */
+
+/* 타이틀 공통 css 시작 */
+.site-wrap.mode .title-css > p {
+  color: #7079E2;
+}
+
+.site-wrap.mode .title-css>p:first-child {
+  font-weight: 400;
+}
+
+.site-wrap.mode .title-css>.title_line {
+  background-color: rgb(141,148,232);
+}
+/* 타이틀 공통 css 끝 */
+
+
+/* 어바웃미 시작 */
+/* 어바웃미 - 한 줄 소개 */
+.site-wrap.mode .aboutMe .main-text {
+  color: #404040;
+}
+
+.site-wrap.mode .aboutMe .main-text>span:nth-of-type(2) {
+  font-weight: 400;
+}
+
+/* 어바웃미 - 항목별 소개 &*/
+.site-wrap.mode .aboutMe .sub-text > div {
+  color:#404040;
+}
+
+.site-wrap.mode .aboutMe .sub-text>.content {
+  font-weight: 400;
+}
+
+.site-wrap.mode .aboutMe .sub-text>.content>.skill-con>div {
+  color:white;
+  font-weight: 500;
+}
+
+
+/* --- 라이트 버전 커스텀 끝 --- */
