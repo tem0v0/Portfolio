@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto Slab', 'Noto Sans KR', sans-serif;
 }
 
+/* 화면 배경색 */
+.section {
+  background-color: #202020;
+}
+
 /* 헤더 - 메뉴바 시작 */
 .menu-bar {
   display: flex;
@@ -33,10 +38,6 @@ body {
 }
 /* 헤더 - 메뉴바 끝 */
 
-/* 화면 배경색 */
-.section {
-  background-color: #202020;
-}
 
 /* 메인 시작 */
 /* 메인 - 텍스트 배경 시작 */
@@ -937,10 +938,17 @@ body {
 }
 
 /* 헤더 - 메뉴바 */
+/* 로고 */
+.site-wrap.mode .menu-bar .logo > svg .st0 {
+  fill:#7079E2;
+}
+
+/* 메뉴 아이템 */
 .site-wrap.mode .menu-bar {
   color:#999999;
 }
 
+/* 페이지가 활성화 됐을 때 메뉴 아이템 색상 변경 */
 .site-wrap.mode .menu-bar .menu>li.active>a {
   color: #7079E2;
 }
