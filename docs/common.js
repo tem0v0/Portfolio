@@ -3,6 +3,7 @@ new fullpage('#fullpage', {
   menu: ".menu-bar .menu"
 });
 
+// 탭메뉴 작동
 function tabMenu() {
   function hideShow(no) {
     $('.tab-menu .pf').removeClass('active');
@@ -32,6 +33,7 @@ function tabMenu() {
 
 tabMenu();
 
+// 텍스트 배경 마우스 따라 움직이게 하는 js
 function textBg_move() {
   $("body").mousemove(function (e) {
     parallaxIt(e, ".text-bg", 20);
@@ -51,3 +53,21 @@ function textBg_move() {
 }
 
 textBg_move();
+
+// 라이트, 다크 모드 변경
+function mode() {
+  $('.menu-bar > .logo').click(
+    function() {
+      let has = $('.site-wrap').hasClass('mode');
+
+      if (has) {
+        $('.site-wrap').removeClass('mode');
+      }
+      else {
+        $('.site-wrap').addClass('mode');
+      };
+    }
+  )
+};
+
+  mode();
