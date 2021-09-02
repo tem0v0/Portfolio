@@ -33,6 +33,10 @@ body {
 }
 /* 헤더 - 메뉴바 끝 */
 
+/* 화면 배경색 */
+.section {
+  background-color: #202020;
+}
 
 /* 메인 시작 */
 /* 메인 - 텍스트 배경 시작 */
@@ -47,7 +51,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: transparent;
   font-weight: 700;
-  -webkit-text-stroke: 6px white;
+  -webkit-text-stroke: 6px #FFF;
   /* 텍스트 외곽선 */
   opacity: 3%;
   letter-spacing: -10px;
@@ -917,8 +921,51 @@ body {
 }
 /* 배경 별 반짝이는 효과 끝 */
 
+
 /* 라이트 버전 커스텀 시작 */
-.site-wrap.mode .main .text-bg {
+/* 화면 배경색 */
+.site-wrap.mode .section  {
+  background-color: white;
 }
+
+/* 메인 시작 */
+/* 메인 - 텍스트 배경 */
+.site-wrap.mode .main .text-bg {
+  -webkit-text-stroke: 6px #E4E4E4;
+  opacity: 30%;
+}
+
+/* 메인 - 타이틀 */
+.site-wrap.mode .main .title p {
+  color: #7079E2;
+}
+
+.site-wrap.mode .main .title-1>p:first-child {
+  font-weight: 400;
+}
+
+.site-wrap.mode .main .title-1>.title_line {
+  background-color: rgb(141,148,232);
+}
+
+/* 메인 - 바다 이미지 */
+.site-wrap.mode .main .main-img {
+  background-color: #fff;
+}
+
+.site-wrap.mode .main .main-img .main-img__sky-1 {
+  background: linear-gradient(rgb(117,164,255), rgb(171,245,255));
+}
+
+.site-wrap.mode .main .main-img .main-img__sky-2 {
+  background: linear-gradient(transparent, #fff);
+}
+
+.site-wrap.mode .main .main-img>.main-img__sea>div {
+  background: radial-gradient( rgb(0,117,255) 10%, rgba(143, 232, 252, 0.87) 90%);
+}
+
+
+/* 메인 끝 */
 
 /* 라이트 버전 커스텀 끝 */
