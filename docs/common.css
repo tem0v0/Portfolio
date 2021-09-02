@@ -715,6 +715,14 @@ body {
   animation: boat 3s infinite linear;
 }
 
+.contact .img>.img-boat > .dark {
+  display: block;
+}
+
+.contact .img>.img-boat > .light {
+  display: none;
+}
+
 .contact .img>.img-sea>div {
   position: absolute;
   top: 630px;
@@ -742,7 +750,6 @@ body {
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
-
 /* 컨택트 - 바다 이미지 끝 */
 
 /* 컨택트 - 카피라이트 시작 */
@@ -1140,6 +1147,14 @@ body {
 /* 컨택트 - 바다 이미지 */
 .site-wrap.mode .contact .img>.img-sea>div {
   background: radial-gradient(#4089fa 64%, #a0efff 72%);
+}
+
+.site-wrap.mode .contact .img>.img-boat > .dark {
+  display: none;
+}
+
+.site-wrap.mode .contact .img>.img-boat > .light {
+  display: block;
 }
 
 .site-wrap.mode .site-wrap.mode .site-wrap.mode
