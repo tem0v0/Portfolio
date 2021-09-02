@@ -213,6 +213,14 @@ body {
   width: 200px;
 }
 
+.main .main-img .main-img__boat>.dark {
+  display: block;
+}
+
+.main .main-img .main-img__boat>.light {
+  display: none;
+}
+
 @keyframes boat {
   50% {
     top: 47%;
@@ -922,10 +930,19 @@ body {
 /* 배경 별 반짝이는 효과 끝 */
 
 
-/* 라이트 버전 커스텀 시작 */
+/* --- 라이트 버전 커스텀 시작 --- */
 /* 화면 배경색 */
 .site-wrap.mode .section  {
   background-color: white;
+}
+
+/* 헤더 - 메뉴바 */
+.site-wrap.mode .menu-bar {
+  color:#999999;
+}
+
+.site-wrap.mode .menu-bar .menu>li.active>a {
+  color: #7079E2;
 }
 
 /* 메인 시작 */
@@ -963,6 +980,14 @@ body {
 
 .site-wrap.mode .main .main-img>.main-img__sea>div {
   background: radial-gradient( rgb(0,117,255) 10%, rgba(143, 232, 252, 0.87) 90%);
+}
+
+.site-wrap.mode .main .main-img .main-img__boat>.dark {
+  display: none;
+}
+
+.site-wrap.mode .main .main-img .main-img__boat>.light {
+  display: block;
 }
 
 
