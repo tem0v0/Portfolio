@@ -573,6 +573,14 @@ body {
   overflow: hidden;
 }
 
+.portfolio .tab-menu>.body .mockup>.site-img>.dark {
+  display: block;
+}
+
+.portfolio .tab-menu>.body .mockup>.site-img>.light {
+  display: none;
+}
+
 .portfolio .tab-menu>.body .mockup>.site-img>img {
   width: 100%;
   position: absolute;
@@ -1538,6 +1546,14 @@ body {
 }
 
 .site-wrap.mode .portfolio .tab-menu>.body .mockup>.light {
+  display: block;
+}
+
+.site-wrap.mode .portfolio .tab-menu>.body .mockup>.site-img>.dark {
+  display: none;
+}
+
+.site-wrap.mode .portfolio .tab-menu>.body .mockup>.site-img>.light {
   display: block;
 }
 
