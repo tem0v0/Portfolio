@@ -1288,6 +1288,69 @@ body {
 }
 
 /* 컨택트 물방울 배경 */
+.contact .sky > .bubble-1 {
+  top:169px;
+  left:144px;
+  width:24.83px;
+  height:27.3px;
+  animation: floating 3s infinite;
+}
+
+.contact .sky > .bubble-2 {
+  top:249px;
+  left:303px;
+  width:60px;
+  height:65.98px;
+  animation: floating 4s infinite;
+}
+
+.contact .sky > .bubble-3 {
+  top:-5.42px;
+  left:497px;
+  width:168.39px;
+  height:185.16px;
+  animation: floating 5s infinite;
+}
+
+.contact .sky > .bubble-4 {
+  top:395.07px;
+  left:602.78px;
+  width:30px;
+  height:32.99px;
+  animation: floating 3.5s infinite;
+}
+
+.contact .sky > .bubble-5 {
+  top:126.84px;
+  left:1047px;
+  width:48px;
+  height:53px;
+  animation: floating 4.5s infinite;
+}
+
+.contact .sky > .bubble-6 {
+  top:249.41px;
+  left:1247px;
+  width:110.37px;
+  height:121.36px;
+  animation: floating 5.5s infinite;
+}
+
+.contact .sky > .bubble-7 {
+  top:-81px;
+  left:1593.89px;
+  width:142.79px;
+  height:157.01px;
+  animation: floating 6s infinite;
+}
+
+.contact .sky > .bubble-8 {
+  top:380.31px;
+  left:1628.5px;
+  width:30.69px;
+  height:33.88px;
+  animation: floating 4s infinite;
+}
 
 /* 물방울 애니메이션 */
 @keyframes floating {
@@ -1304,6 +1367,7 @@ body {
   }
 }
 /* 배경 하늘 물방울 움직이는 효과 끝 */
+
 
 /* --- 라이트 버전 커스텀 시작 --- */
 /* 화면 배경색 */
