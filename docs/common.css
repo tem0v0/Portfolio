@@ -1112,7 +1112,7 @@ body {
 
 .aboutMe .sky > .bubble-4 {
   top:572px;
-  left:255.65px;
+  left:155.65px;
   width:147.12px;
   height:161.77px;
   animation: floating 5s infinite;
@@ -1183,6 +1183,110 @@ body {
 }
 
 /* 포트폴리오 물방울 배경 */
+.portfolio .sky > .bubble-1 {
+  top:169px;
+  left:144px;
+  width:24.83px;
+  height:27.3px;
+  animation: floating 3s infinite;
+}
+
+.portfolio .sky > .bubble-2 {
+  top:249px;
+  left:303px;
+  width:60px;
+  height:65.98px;
+  animation: floating 4.5s infinite;
+}
+
+.portfolio .sky > .bubble-3 {
+  top:517px;
+  left:72px;
+  width:30px;
+  height:32.99px;
+  animation: floating 3.5s infinite;
+}
+
+.portfolio .sky > .bubble-4 {
+  top:600.07px;
+  left:123px;
+  width:183.52px;
+  height:201.8px;
+  animation: floating 5s infinite;
+}
+
+.portfolio .sky > .bubble-5 {
+  top:860px;
+  left:-35px;
+  width:69.21px;
+  height:76.1px;
+  animation: floating 4s infinite;
+}
+
+.portfolio .sky > .bubble-6 {
+  top:809px;
+  left:381px;
+  width:35px;
+  height:39px;
+  animation: floating 3s infinite;
+}
+
+.portfolio .sky > .bubble-7 {
+  top:212px;
+  left:1460px;
+  width:110.37px;
+  height:121.36px;
+  animation: floating 4.5s infinite;
+}
+
+.portfolio .sky > .bubble-8 {
+  top:922px;
+  left:1343px;
+  width:42px;
+  height:46.18px;
+  animation: floating 3.5s infinite;
+}
+
+.portfolio .sky > .bubble-9 {
+  top:-3.44px;
+  left:1611.57px;
+  width:279px;
+  height:306.79px;
+  animation: floating 5.5s infinite;
+}
+
+.portfolio .sky > .bubble-10 {
+  top:336px;
+  left:1730px;
+  width:24.83px;
+  height:27.3px;
+  animation: floating 4s infinite;
+}
+
+.portfolio .sky > .bubble-11 {
+  top:822px;
+  left:1833px;
+  width:138px;
+  height:151.74px;
+  animation: floating 5s infinite;
+}
+
+.portfolio .sky > .bubble-12{
+  top:682px;
+  left:1684px;
+  width:30px;
+  height:32.99px;
+  animation: floating 4.5s infinite;
+}
+
+.portfolio .sky > .bubble-13{
+  top:-5.42px;
+  left:497px;
+  width:168.39px;
+  height:185.16px;
+  animation: floating 6s infinite;
+}
+
 /* 컨택트 물방울 배경 */
 
 /* 물방울 애니메이션 */
