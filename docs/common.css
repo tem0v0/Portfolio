@@ -564,12 +564,12 @@ body {
 }
 
 .portfolio .tab-menu>.body .mockup>.site-img {
-  width: 504px;
-  height: 284px;
+  width: 515px;
+  height: 290px;
   background-color: white;
   position: absolute;
-  top: 33px;
-  left: 34px;
+  top: 32px;
+  left: 29px;
   overflow: hidden;
 }
 
@@ -582,7 +582,7 @@ body {
 }
 
 .portfolio .tab-menu>.body .mockup>.site-img:hover>img {
-  top: -1113px;
+  top: -749px;
 }
 
 .portfolio .tab-menu>.body .mockup>.mouseover-img {
