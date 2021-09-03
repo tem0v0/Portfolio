@@ -1023,9 +1023,9 @@ body {
 
 .main .sky > .bubble-5 {
   top:828.37px;
-  left:74px;
-  width:244.83px;
-  height:269.22px;
+  left:274px;
+  width:159.08px;
+  height:174.92px;
   animation: floating 6.5s infinite;
 }
 
@@ -1337,7 +1337,7 @@ body {
 }
 
 .contact .sky > .bubble-7 {
-  top:-81px;
+  top:0px;
   left:1593.89px;
   width:142.79px;
   height:157.01px;
