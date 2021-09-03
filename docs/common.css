@@ -1356,6 +1356,14 @@ body {
   animation: floating 4s infinite;
 }
 
+.contact .sky > .bubble-9 {
+  top:518.29px;
+  left:115.9px;
+  width:87.12px;
+  height:95.79px;
+  animation: floating 5.5s infinite;
+}
+
 /* 물방울 애니메이션 */
 @keyframes floating {
   0% {
@@ -1454,7 +1462,6 @@ body {
 .site-wrap.mode .title-css>.title_line {
   background-color: rgb(141, 148, 232);
 }
-
 /* 타이틀 공통 css 끝 */
 
 
