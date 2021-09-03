@@ -783,6 +783,10 @@ body {
 
 
 /* 배경 별 반짝이는 효과 시작 */
+.StarryNight.dark {
+  display: block;
+}
+
 .StarryNight>.stars {
   position: absolute;
   z-index: 1;
@@ -965,9 +969,141 @@ body {
   top: 775px;
   left: 601px;
 }
-
 /* 배경 별 반짝이는 효과 끝 */
 
+/* 배경 하늘 물방울 움직이는 효과 시작 */
+.sky.light {
+  display: none;
+}
+
+.sky > .bubble {
+  position:absolute;
+  z-index:1;
+  background-color:#ddefff;
+  border-radius:50%;
+}
+
+.sky > .bubble-svg {
+  position:absolute;
+  z-index:1;
+}
+
+/* 메인 물방울 배경 */
+.main .sky > .bubble-1 {
+  top:169px;
+  left:144px;
+  width:24.83px;
+  height:27.3px;
+  animation: floating 3s infinite;
+}
+
+.main .sky > .bubble-2 {
+  top:249px;
+  left:303px;
+  width:60px;
+  height:65.98px;
+  animation: floating 6s infinite;
+}
+
+.main .sky > .bubble-3 {
+  top:367px;
+  left:87px;
+  width:30px;
+  height:32.99px;
+  animation: floating 4s infinite;
+}
+
+.main .sky > .bubble-4 {
+  top:650px;
+  left:-25px;
+  width:69.21px;
+  height:76.1px;
+  animation: floating 5s infinite;
+}
+
+.main .sky > .bubble-5 {
+  top:828.37px;
+  left:74px;
+  width:244.83px;
+  height:269.22px;
+  animation: floating 6.5s infinite;
+}
+
+.main .sky > .bubble-6 {
+  top:-5.42px;
+  left:497px;
+  width:168.39px;
+  height:185.16px;
+  animation: floating 4.5s infinite;
+}
+
+.main .sky > .bubble-7 {
+  top:726px;
+  left:497px;
+  width:35px;
+  height:39px;
+  animation: floating 3s infinite;
+}
+
+.main .sky > .bubble-8 {
+  top:212px;
+  left:1460px;
+  width:110.37px;
+  height:121.36px;
+  animation: floating 5s infinite;
+}
+
+.main .sky > .bubble-9 {
+  top:822px;
+  left:1343px;
+  width:42px;
+  height:46.18px;
+  animation: floating 3.5s infinite;
+}
+
+.main .sky > .bubble-10 {
+  top:639px;
+  left:1554px;
+  width:30px;
+  height:32.99px;
+  animation: floating 5s infinite;
+}
+
+.main .sky > .bubble-12 {
+  top:99.85px;
+  left:1684.7px;
+  width:61px;
+  height:67px;
+  animation: floating 4s infinite;
+}
+
+.main .sky > .bubble-13 {
+  top:717.44px;
+  left:1672.71px;
+  width:104.84px;
+  height:115.29px;
+  animation: floating 4.5s infinite;
+}
+
+/* 어바웃미 물방울 배경 */
+/* 포트폴리오 물방울 배경 */
+/* 컨택트 물방울 배경 */
+
+/* 물방울 애니메이션 */
+@keyframes floating {
+  0% {
+    transform: translateY(-30px);
+  }
+  
+  50% {
+    transform: translateY(0);
+  }
+  
+  100% {
+    transform: translateY(-30px);
+  }
+}
+/* 배경 하늘 물방울 움직이는 효과 끝 */
 
 /* --- 라이트 버전 커스텀 시작 --- */
 /* 화면 배경색 */
@@ -1035,7 +1171,6 @@ body {
 .site-wrap.mode .main .main-img .main-img__boat>.light {
   display: block;
 }
-
 /* 메인 끝 */
 
 
@@ -1157,5 +1292,11 @@ body {
   display: block;
 }
 
-.site-wrap.mode .site-wrap.mode .site-wrap.mode
+.site-wrap.mode .StarryNight.dark {
+  display: none;
+}
+
+.site-wrap.mode .sky.light {
+  display: block;
+}
 /* --- 라이트 버전 커스텀 끝 --- */
