@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto Slab', 'Noto Sans KR', sans-serif;
 }
 
+.con {
+  width: 1920px;
+}
+
 /* 화면 배경색 */
 .section {
   background-color: #202020;
