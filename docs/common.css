@@ -41,16 +41,19 @@ body {
 .menu-bar .logo>.SunMoon>.dark {
   display: block;
   opacity: 1;
-  animation: waved 3s infinite linear;
+  animation: twinkle 3s infinite linear;
 }
 
 .menu-bar .logo>.SunMoon>.light {
   display: none;
-  animation: wave 10s infinite linear;
+  animation: rotate 10s infinite linear;
+}
+
+.menu-bar .logo:hover>.SunMoon>.light {
 }
 
 /* 물결 출렁이는 애니메이션 */
-@keyframes waved {
+@keyframes twinkle {
   0% {
     opacity: 1;
   }
@@ -64,7 +67,7 @@ body {
   }
 }
 
-@keyframes wave {
+@keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
