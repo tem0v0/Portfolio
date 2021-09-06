@@ -27,6 +27,49 @@ body {
   font-weight: 700;
 }
 
+.menu-bar .logo>.logo {
+  fill: #fff;
+}
+
+.menu-bar .logo>.SunMoon {
+  position: absolute;
+  top: -7.74px;
+  left: 89.14px;
+  fill: #FFD600;
+}
+
+.menu-bar .logo>.SunMoon>.dark {
+  display: block;
+  opacity: 1;
+  animation: waved 5s infinite linear;
+}
+
+.menu-bar .logo>.SunMoon>.light {
+  display: none;
+  animation: wave 10s infinite linear;
+}
+
+/* 물결 출렁이는 애니메이션 */
+@keyframes waved {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes wave {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .menu-bar .menu {
   text-align: right;
 }
@@ -727,11 +770,11 @@ body {
   animation: boat 3s infinite linear;
 }
 
-.contact .img>.img-boat > .dark {
+.contact .img>.img-boat>.dark {
   display: block;
 }
 
-.contact .img>.img-boat > .light {
+.contact .img>.img-boat>.light {
   display: none;
 }
 
@@ -762,6 +805,7 @@ body {
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
+
 /* 컨택트 - 바다 이미지 끝 */
 
 /* 컨택트 - 카피라이트 시작 */
@@ -981,6 +1025,7 @@ body {
   top: 775px;
   left: 601px;
 }
+
 /* 배경 별 반짝이는 효과 끝 */
 
 /* 배경 하늘 물방울 움직이는 효과 시작 */
@@ -988,387 +1033,387 @@ body {
   display: none;
 }
 
-.sky > .bubble {
-  position:absolute;
-  z-index:1;
-  background-color:#ddefff;
-  border-radius:50%;
+.sky>.bubble {
+  position: absolute;
+  z-index: 1;
+  background-color: #ddefff;
+  border-radius: 50%;
 }
 
-.sky > .bubble-svg {
-  position:absolute;
-  z-index:1;
+.sky>.bubble-svg {
+  position: absolute;
+  z-index: 1;
 }
 
 /* 메인 물방울 배경 */
-.main .sky > .bubble-1 {
-  top:169px;
-  left:144px;
-  width:24.83px;
-  height:27.3px;
+.main .sky>.bubble-1 {
+  top: 169px;
+  left: 144px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 3s infinite;
 }
 
-.main .sky > .bubble-2 {
-  top:249px;
-  left:303px;
-  width:60px;
-  height:65.98px;
+.main .sky>.bubble-2 {
+  top: 249px;
+  left: 303px;
+  width: 60px;
+  height: 65.98px;
   animation: floating 6s infinite;
 }
 
-.main .sky > .bubble-3 {
-  top:367px;
-  left:87px;
-  width:30px;
-  height:32.99px;
+.main .sky>.bubble-3 {
+  top: 367px;
+  left: 87px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 4s infinite;
 }
 
-.main .sky > .bubble-4 {
-  top:650px;
-  left:-25px;
-  width:69.21px;
-  height:76.1px;
+.main .sky>.bubble-4 {
+  top: 650px;
+  left: -25px;
+  width: 69.21px;
+  height: 76.1px;
   animation: floating 5s infinite;
 }
 
-.main .sky > .bubble-5 {
-  top:828.37px;
-  left:274px;
-  width:159.08px;
-  height:174.92px;
+.main .sky>.bubble-5 {
+  top: 828.37px;
+  left: 274px;
+  width: 159.08px;
+  height: 174.92px;
   animation: floating 6.5s infinite;
 }
 
-.main .sky > .bubble-6 {
-  top:-5.42px;
-  left:497px;
-  width:168.39px;
-  height:185.16px;
+.main .sky>.bubble-6 {
+  top: -5.42px;
+  left: 497px;
+  width: 168.39px;
+  height: 185.16px;
   animation: floating 4.5s infinite;
 }
 
-.main .sky > .bubble-7 {
-  top:726px;
-  left:497px;
-  width:35px;
-  height:39px;
+.main .sky>.bubble-7 {
+  top: 726px;
+  left: 497px;
+  width: 35px;
+  height: 39px;
   animation: floating 3s infinite;
 }
 
-.main .sky > .bubble-8 {
-  top:212px;
-  left:1460px;
-  width:110.37px;
-  height:121.36px;
+.main .sky>.bubble-8 {
+  top: 212px;
+  left: 1460px;
+  width: 110.37px;
+  height: 121.36px;
   animation: floating 5s infinite;
 }
 
-.main .sky > .bubble-9 {
-  top:822px;
-  left:1343px;
-  width:42px;
-  height:46.18px;
+.main .sky>.bubble-9 {
+  top: 822px;
+  left: 1343px;
+  width: 42px;
+  height: 46.18px;
   animation: floating 3.5s infinite;
 }
 
-.main .sky > .bubble-10 {
-  top:639px;
-  left:1554px;
-  width:30px;
-  height:32.99px;
+.main .sky>.bubble-10 {
+  top: 639px;
+  left: 1554px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 5s infinite;
 }
 
-.main .sky > .bubble-12 {
-  top:99.85px;
-  left:1684.7px;
-  width:61px;
-  height:67px;
+.main .sky>.bubble-12 {
+  top: 99.85px;
+  left: 1684.7px;
+  width: 61px;
+  height: 67px;
   animation: floating 4s infinite;
 }
 
-.main .sky > .bubble-13 {
-  top:717.44px;
-  left:1672.71px;
-  width:104.84px;
-  height:115.29px;
+.main .sky>.bubble-13 {
+  top: 717.44px;
+  left: 1672.71px;
+  width: 104.84px;
+  height: 115.29px;
   animation: floating 4.5s infinite;
 }
 
 /* 어바웃미 물방울 배경 */
-.aboutMe .sky > .bubble-1 {
-  top:169px;
-  left:144px;
-  width:24.83px;
-  height:27.3px;
+.aboutMe .sky>.bubble-1 {
+  top: 169px;
+  left: 144px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 3s infinite;
 }
 
-.aboutMe .sky > .bubble-2 {
-  top:249px;
-  left:303px;
-  width:60px;
-  height:65.98px;
+.aboutMe .sky>.bubble-2 {
+  top: 249px;
+  left: 303px;
+  width: 60px;
+  height: 65.98px;
   animation: floating 4.5s infinite;
 }
 
-.aboutMe .sky > .bubble-3 {
-  top:493px;
-  left:42px;
-  width:30px;
-  height:32.99px;
+.aboutMe .sky>.bubble-3 {
+  top: 493px;
+  left: 42px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 3.5s infinite;
 }
 
-.aboutMe .sky > .bubble-4 {
-  top:572px;
-  left:155.65px;
-  width:147.12px;
-  height:161.77px;
+.aboutMe .sky>.bubble-4 {
+  top: 572px;
+  left: 155.65px;
+  width: 147.12px;
+  height: 161.77px;
   animation: floating 5s infinite;
 }
 
-.aboutMe .sky > .bubble-5 {
-  top:893.94px;
-  left:-25px;
-  width:69.21px;
-  height:76.1px;
+.aboutMe .sky>.bubble-5 {
+  top: 893.94px;
+  left: -25px;
+  width: 69.21px;
+  height: 76.1px;
   animation: floating 4s infinite;
 }
 
-.aboutMe .sky > .bubble-6 {
-  top:809px;
-  left:381px;
-  width:35px;
-  height:39px;
+.aboutMe .sky>.bubble-6 {
+  top: 809px;
+  left: 381px;
+  width: 35px;
+  height: 39px;
   animation: floating 3s infinite;
 }
 
-.aboutMe .sky > .bubble-7 {
-  top:49.6px;
-  left:546px;
-  width:122.09px;
-  height:134.25px;
+.aboutMe .sky>.bubble-7 {
+  top: 49.6px;
+  left: 546px;
+  width: 122.09px;
+  height: 134.25px;
   animation: floating 5s infinite;
 }
 
-.aboutMe .sky > .bubble-8 {
-  top:99px;
-  left:1246.77px;
-  width:51.46px;
-  height:56.59px;
+.aboutMe .sky>.bubble-8 {
+  top: 99px;
+  left: 1246.77px;
+  width: 51.46px;
+  height: 56.59px;
   animation: floating 3.5s infinite;
 }
 
-.aboutMe .sky > .bubble-9 {
-  top:-114px;
-  left:1515.34px;
-  width:176.43px;
-  height:194px;
+.aboutMe .sky>.bubble-9 {
+  top: -114px;
+  left: 1515.34px;
+  width: 176.43px;
+  height: 194px;
   animation: floating 6s infinite;
 }
 
-.aboutMe .sky > .bubble-10 {
-  top:620px;
-  left:1554.04px;
-  width:169.38px;
-  height:186.25px;
+.aboutMe .sky>.bubble-10 {
+  top: 620px;
+  left: 1554.04px;
+  width: 169.38px;
+  height: 186.25px;
   animation: floating 5.5s infinite;
 }
 
-.aboutMe .sky > .bubble-11 {
-  top:822px;
-  left:1343px;
-  width:42px;
-  height:46.18px;
+.aboutMe .sky>.bubble-11 {
+  top: 822px;
+  left: 1343px;
+  width: 42px;
+  height: 46.18px;
   animation: floating 3.5s infinite;
 }
 
-.aboutMe .sky > .bubble-12 {
-  top:249px;
-  left:1803px;
-  width:24.83px;
-  height:27.3px;
+.aboutMe .sky>.bubble-12 {
+  top: 249px;
+  left: 1803px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 4.5s infinite;
 }
 
 /* 포트폴리오 물방울 배경 */
-.portfolio .sky > .bubble-1 {
-  top:169px;
-  left:144px;
-  width:24.83px;
-  height:27.3px;
+.portfolio .sky>.bubble-1 {
+  top: 169px;
+  left: 144px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 3s infinite;
 }
 
-.portfolio .sky > .bubble-2 {
-  top:249px;
-  left:303px;
-  width:60px;
-  height:65.98px;
+.portfolio .sky>.bubble-2 {
+  top: 249px;
+  left: 303px;
+  width: 60px;
+  height: 65.98px;
   animation: floating 4.5s infinite;
 }
 
-.portfolio .sky > .bubble-3 {
-  top:517px;
-  left:72px;
-  width:30px;
-  height:32.99px;
+.portfolio .sky>.bubble-3 {
+  top: 517px;
+  left: 72px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 3.5s infinite;
 }
 
-.portfolio .sky > .bubble-4 {
-  top:600.07px;
-  left:123px;
-  width:183.52px;
-  height:201.8px;
+.portfolio .sky>.bubble-4 {
+  top: 600.07px;
+  left: 123px;
+  width: 183.52px;
+  height: 201.8px;
   animation: floating 5s infinite;
 }
 
-.portfolio .sky > .bubble-5 {
-  top:860px;
-  left:-35px;
-  width:69.21px;
-  height:76.1px;
+.portfolio .sky>.bubble-5 {
+  top: 860px;
+  left: -35px;
+  width: 69.21px;
+  height: 76.1px;
   animation: floating 4s infinite;
 }
 
-.portfolio .sky > .bubble-6 {
-  top:809px;
-  left:381px;
-  width:35px;
-  height:39px;
+.portfolio .sky>.bubble-6 {
+  top: 809px;
+  left: 381px;
+  width: 35px;
+  height: 39px;
   animation: floating 3s infinite;
 }
 
-.portfolio .sky > .bubble-7 {
-  top:212px;
-  left:1460px;
-  width:110.37px;
-  height:121.36px;
+.portfolio .sky>.bubble-7 {
+  top: 212px;
+  left: 1460px;
+  width: 110.37px;
+  height: 121.36px;
   animation: floating 4.5s infinite;
 }
 
-.portfolio .sky > .bubble-8 {
-  top:922px;
-  left:1343px;
-  width:42px;
-  height:46.18px;
+.portfolio .sky>.bubble-8 {
+  top: 922px;
+  left: 1343px;
+  width: 42px;
+  height: 46.18px;
   animation: floating 3.5s infinite;
 }
 
-.portfolio .sky > .bubble-9 {
-  top:-3.44px;
-  left:1611.57px;
-  width:279px;
-  height:306.79px;
+.portfolio .sky>.bubble-9 {
+  top: -3.44px;
+  left: 1611.57px;
+  width: 279px;
+  height: 306.79px;
   animation: floating 5.5s infinite;
 }
 
-.portfolio .sky > .bubble-10 {
-  top:336px;
-  left:1730px;
-  width:24.83px;
-  height:27.3px;
+.portfolio .sky>.bubble-10 {
+  top: 336px;
+  left: 1730px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 4s infinite;
 }
 
-.portfolio .sky > .bubble-11 {
-  top:822px;
-  left:1833px;
-  width:138px;
-  height:151.74px;
+.portfolio .sky>.bubble-11 {
+  top: 822px;
+  left: 1833px;
+  width: 138px;
+  height: 151.74px;
   animation: floating 5s infinite;
 }
 
-.portfolio .sky > .bubble-12{
-  top:682px;
-  left:1684px;
-  width:30px;
-  height:32.99px;
+.portfolio .sky>.bubble-12 {
+  top: 682px;
+  left: 1684px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 4.5s infinite;
 }
 
-.portfolio .sky > .bubble-13{
-  top:-5.42px;
-  left:497px;
-  width:168.39px;
-  height:185.16px;
+.portfolio .sky>.bubble-13 {
+  top: -5.42px;
+  left: 497px;
+  width: 168.39px;
+  height: 185.16px;
   animation: floating 6s infinite;
 }
 
 /* 컨택트 물방울 배경 */
-.contact .sky > .bubble-1 {
-  top:169px;
-  left:144px;
-  width:24.83px;
-  height:27.3px;
+.contact .sky>.bubble-1 {
+  top: 169px;
+  left: 144px;
+  width: 24.83px;
+  height: 27.3px;
   animation: floating 3s infinite;
 }
 
-.contact .sky > .bubble-2 {
-  top:249px;
-  left:303px;
-  width:60px;
-  height:65.98px;
+.contact .sky>.bubble-2 {
+  top: 249px;
+  left: 303px;
+  width: 60px;
+  height: 65.98px;
   animation: floating 4s infinite;
 }
 
-.contact .sky > .bubble-3 {
-  top:-5.42px;
-  left:497px;
-  width:168.39px;
-  height:185.16px;
+.contact .sky>.bubble-3 {
+  top: -5.42px;
+  left: 497px;
+  width: 168.39px;
+  height: 185.16px;
   animation: floating 5s infinite;
 }
 
-.contact .sky > .bubble-4 {
-  top:395.07px;
-  left:602.78px;
-  width:30px;
-  height:32.99px;
+.contact .sky>.bubble-4 {
+  top: 395.07px;
+  left: 602.78px;
+  width: 30px;
+  height: 32.99px;
   animation: floating 3.5s infinite;
 }
 
-.contact .sky > .bubble-5 {
-  top:126.84px;
-  left:1047px;
-  width:48px;
-  height:53px;
+.contact .sky>.bubble-5 {
+  top: 126.84px;
+  left: 1047px;
+  width: 48px;
+  height: 53px;
   animation: floating 4.5s infinite;
 }
 
-.contact .sky > .bubble-6 {
-  top:249.41px;
-  left:1247px;
-  width:110.37px;
-  height:121.36px;
+.contact .sky>.bubble-6 {
+  top: 249.41px;
+  left: 1247px;
+  width: 110.37px;
+  height: 121.36px;
   animation: floating 5.5s infinite;
 }
 
-.contact .sky > .bubble-7 {
-  top:0px;
-  left:1593.89px;
-  width:142.79px;
-  height:157.01px;
+.contact .sky>.bubble-7 {
+  top: 0px;
+  left: 1593.89px;
+  width: 142.79px;
+  height: 157.01px;
   animation: floating 6s infinite;
 }
 
-.contact .sky > .bubble-8 {
-  top:380.31px;
-  left:1628.5px;
-  width:30.69px;
-  height:33.88px;
+.contact .sky>.bubble-8 {
+  top: 380.31px;
+  left: 1628.5px;
+  width: 30.69px;
+  height: 33.88px;
   animation: floating 4s infinite;
 }
 
-.contact .sky > .bubble-9 {
-  top:518.29px;
-  left:115.9px;
-  width:87.12px;
-  height:95.79px;
+.contact .sky>.bubble-9 {
+  top: 518.29px;
+  left: 115.9px;
+  width: 87.12px;
+  height: 95.79px;
   animation: floating 5.5s infinite;
 }
 
@@ -1377,15 +1422,16 @@ body {
   0% {
     transform: translateY(-30px);
   }
-  
+
   50% {
     transform: translateY(0);
   }
-  
+
   100% {
     transform: translateY(-30px);
   }
 }
+
 /* 배경 하늘 물방울 움직이는 효과 끝 */
 
 
@@ -1397,8 +1443,16 @@ body {
 
 /* 헤더 - 메뉴바 */
 /* 로고 */
-.site-wrap.mode .menu-bar .logo>svg .st0 {
+.site-wrap.mode .menu-bar .logo>.logo {
   fill: #7079E2;
+}
+
+.site-wrap.mode .menu-bar .logo>.SunMoon>.dark {
+  display: none;
+}
+
+.site-wrap.mode .menu-bar .logo>.SunMoon>.light {
+  display: block;
 }
 
 /* 메뉴 아이템 */
@@ -1455,6 +1509,7 @@ body {
 .site-wrap.mode .main .main-img .main-img__boat>.light {
   display: block;
 }
+
 /* 메인 끝 */
 
 
@@ -1470,6 +1525,7 @@ body {
 .site-wrap.mode .title-css>.title_line {
   background-color: rgb(141, 148, 232);
 }
+
 /* 타이틀 공통 css 끝 */
 
 
@@ -1575,11 +1631,11 @@ body {
   background: radial-gradient(#4089fa 64%, #a0efff 72%);
 }
 
-.site-wrap.mode .contact .img>.img-boat > .dark {
+.site-wrap.mode .contact .img>.img-boat>.dark {
   display: none;
 }
 
-.site-wrap.mode .contact .img>.img-boat > .light {
+.site-wrap.mode .contact .img>.img-boat>.light {
   display: block;
 }
 
@@ -1590,4 +1646,5 @@ body {
 .site-wrap.mode .sky.light {
   display: block;
 }
+
 /* --- 라이트 버전 커스텀 끝 --- */
