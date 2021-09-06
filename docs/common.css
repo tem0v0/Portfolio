@@ -33,26 +33,33 @@ body {
 
 .menu-bar .logo>.SunMoon {
   position: absolute;
-  top: -7.74px;
-  left: 89.14px;
+  top: -9.74px;
+  left: 86.14px;
   fill: #FFD600;
 }
 
 .menu-bar .logo>.SunMoon>.dark {
-  display: block;
+  position:absolute;
   opacity: 1;
   animation: twinkle 3s infinite linear;
 }
 
 .menu-bar .logo>.SunMoon>.light {
-  display: none;
-  animation: rotate 10s infinite linear;
+  opacity: 0;
+  animation: none;
+}
+
+.menu-bar .logo:hover>.SunMoon>.dark {
+  opacity: 0;
+  animation: none;
 }
 
 .menu-bar .logo:hover>.SunMoon>.light {
+  opacity: 1;
+  transition: opacity 1s;
 }
 
-/* 물결 출렁이는 애니메이션 */
+/* 해, 달 애니메이션 */
 @keyframes twinkle {
   0% {
     opacity: 1;
@@ -1451,11 +1458,23 @@ body {
 }
 
 .site-wrap.mode .menu-bar .logo>.SunMoon>.dark {
-  display: none;
+  opacity: 0;
+  animation: none;
 }
 
 .site-wrap.mode .menu-bar .logo>.SunMoon>.light {
-  display: block;
+  opacity: 1;
+  animation: rotate 10s infinite linear;
+}
+
+.site-wrap.mode .menu-bar .logo:hover>.SunMoon>.dark {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.site-wrap.mode .menu-bar .logo:hover>.SunMoon>.light {
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 /* 메뉴 아이템 */
