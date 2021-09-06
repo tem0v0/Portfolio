@@ -41,7 +41,7 @@ body {
 .menu-bar .logo>.SunMoon>.dark {
   display: block;
   opacity: 1;
-  animation: waved 5s infinite linear;
+  animation: waved 3s infinite linear;
 }
 
 .menu-bar .logo>.SunMoon>.light {
