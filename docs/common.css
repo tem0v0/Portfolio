@@ -57,6 +57,7 @@ body {
 .menu-bar .logo:hover>.SunMoon>.light {
   opacity: 1;
   fill:#a0efff;
+  animation: rotate 10s infinite linear;
 }
 
 /* 해, 달 애니메이션 */
@@ -1470,6 +1471,7 @@ body {
 .site-wrap.mode .menu-bar .logo:hover>.SunMoon>.dark {
   opacity: 1;
   fill:#202020;
+  animation: twinkle 3s infinite linear;
 }
 
 .site-wrap.mode .menu-bar .logo:hover>.SunMoon>.light {
