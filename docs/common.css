@@ -94,7 +94,6 @@ body {
 .menu-bar .menu>li.active>a {
   color: white;
 }
-
 /* 헤더 - 메뉴바 끝 */
 
 
@@ -128,9 +127,7 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
-
 /* 메인 - 텍스트 배경 끝 */
-
 
 /* 메인 - 타이틀 시작 */
 .main .title-1 {
@@ -174,9 +171,7 @@ body {
   left: 225.43px;
   z-index: 10;
 }
-
 /* 메인 - 타이틀 끝 */
-
 
 /* 메인 - 바다 이미지 시작 */
 .main .main-img {
@@ -288,7 +283,6 @@ body {
     top: 47%;
   }
 }
-
 /* 메인 - 바다 이미지 끝 */
 /* 메인 끝 */
 
@@ -323,7 +317,6 @@ body {
   line-height: 70%;
   margin-top: 20px;
 }
-
 /* 타이틀 공통 css 끝 */
 
 
@@ -348,7 +341,6 @@ body {
   color: #7079E2;
   line-height: 110%;
 }
-
 /* 어바웃미 - 한 줄 소개 끝 */
 
 /* 어바웃미 - 항목별 소개 시작 */
@@ -445,7 +437,6 @@ body {
 .aboutMe .sub-text>.content>.skill-con>div:nth-child(4) {
   background-color: #63E3FF;
 }
-
 /* 어바웃미 - 항목별 소개 끝 */
 
 /* 어바웃미 - 사진 시작 */
@@ -459,7 +450,6 @@ body {
 .aboutMe .photo>img {
   width: 300px;
 }
-
 /* 어바웃미 - 사진 끝 */
 /* 어바웃미 끝 */
 
@@ -702,7 +692,6 @@ body {
   background-color: #7079E2;
   border-radius: 5px;
 }
-
 /* 포트폴리오 끝 */
 
 
@@ -736,7 +725,6 @@ body {
   line-height: 75%;
   letter-spacing: -8px;
 }
-
 /* 컨택트 - 텍스트 배경 끝 */
 
 /* 컨택트 - 텍스트 시작 */
@@ -769,7 +757,6 @@ body {
   line-height: 80%;
   letter-spacing: 2px;
 }
-
 /* 컨택트 - 텍스트 끝 */
 
 /* 컨택트 - 바다 이미지 시작 */
@@ -816,7 +803,6 @@ body {
   animation: wave3 10.2s infinite linear;
   transform: rotate(20deg);
 }
-
 /* 컨택트 - 바다 이미지 끝 */
 
 /* 컨택트 - 카피라이트 시작 */
@@ -844,7 +830,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-
 /* 컨택트 - 카피라이트 끝 */
 /* 컨택트 끝 */
 
@@ -1036,8 +1021,8 @@ body {
   top: 775px;
   left: 601px;
 }
-
 /* 배경 별 반짝이는 효과 끝 */
+
 
 /* 배경 하늘 물방울 움직이는 효과 시작 */
 .sky.light {
@@ -1442,7 +1427,6 @@ body {
     transform: translateY(-30px);
   }
 }
-
 /* 배경 하늘 물방울 움직이는 효과 끝 */
 
 
@@ -1532,7 +1516,6 @@ body {
 .site-wrap.mode .main .main-img .main-img__boat>.light {
   display: block;
 }
-
 /* 메인 끝 */
 
 
@@ -1548,7 +1531,6 @@ body {
 .site-wrap.mode .title-css>.title_line {
   background-color: rgb(141, 148, 232);
 }
-
 /* 타이틀 공통 css 끝 */
 
 
@@ -1669,5 +1651,4 @@ body {
 .site-wrap.mode .sky.light {
   display: block;
 }
-
 /* --- 라이트 버전 커스텀 끝 --- */
