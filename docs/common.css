@@ -3,7 +3,7 @@ body {
 }
 
 .con {
-  width: 1920px;
+  min-width: 1920px;
 }
 
 /* 화면 배경색 */
