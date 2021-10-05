@@ -633,8 +633,12 @@ body {
   transition: top 10s;
 }
 
-.portfolio .tab-menu>.body .mockup>.site-img:hover>img {
-  top: -750px;
+.portfolio .tab-menu>.body .mockup1>.site-img:hover>img {
+  top: calc(-1040px + 290px);
+}
+
+.portfolio .tab-menu>.body .mockup2>.site-img:hover>img {
+  top: calc(-1467px + 290px);
 }
 
 .portfolio .tab-menu>.body .mockup>.mouseover-img {
